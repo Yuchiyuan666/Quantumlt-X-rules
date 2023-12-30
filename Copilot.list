@@ -4,3 +4,4 @@ host-suffix, cdn.jsdelivr.net, proxy
 host-suffix, microsoft-falcon.io, proxy
 host-suffix, msn.com, proxy
 host-suffix, microsoftapp.net, proxy
+host-suffix, bing.com, proxy
