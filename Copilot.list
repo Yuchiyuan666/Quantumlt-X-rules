@@ -1,0 +1,6 @@
+#  Microsoft Copilot
+host-suffix, bingapis.com, proxy
+host-suffix, cdn.jsdelivr.net, proxy
+host-suffix, microsoft-falcon.io, proxy
+host-suffix, msn.com, proxy
+host-suffix, microsoftapp.net, proxy
