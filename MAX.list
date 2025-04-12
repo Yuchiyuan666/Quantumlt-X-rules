@@ -1,0 +1,48 @@
+# Max 专用 Loon 规则配置
+# 下面是为您定制的 Max (原 HBO Max) 流媒体服务的 Loon 规则配置。这个配置包括了完整的 Max 服务所需的域名和 IP 规则，可确保 Max 流媒体内容通过您指定的代理节点访问。
+# Max (原 HBO Max) 规则集合
+# 更新日期: 2025-04-12
+
+DOMAIN,hbomax.com        
+DOMAIN-SUFFIX,hbomax.com
+DOMAIN-SUFFIX,max.com
+DOMAIN-SUFFIX,hbo.com
+DOMAIN-SUFFIX,hbomaxcdn.com       
+DOMAIN-SUFFIX,hbonow.com
+DOMAIN-SUFFIX,maxgo.com
+
+# Max CDN 和内容分发
+DOMAIN-SUFFIX,max-cdn.com
+DOMAIN-SUFFIX,wmaxcdn.com
+DOMAIN-SUFFIX,warnermediacdn.com
+DOMAIN-SUFFIX,warnerbros.com
+DOMAIN-SUFFIX,wbdnav.com
+
+# Max API 和认证服务
+DOMAIN-SUFFIX,auth.hbomax.com
+DOMAIN-SUFFIX,api.hbomax.com
+DOMAIN-SUFFIX,oauth.hbomax.com
+DOMAIN-SUFFIX,play.hbomax.com
+DOMAIN-SUFFIX,play.max.com
+
+# Max 视频流服务
+DOMAIN-SUFFIX,stream.hbomax.com
+DOMAIN-SUFFIX,stream.max.com
+DOMAIN-KEYWORD,hbomax,美国节点  
+DOMAIN-KEYWORD,max-streaming
+
+# 华纳媒体相关服务 (Max 母公司)
+DOMAIN-SUFFIX,warnermedia.com
+DOMAIN-SUFFIX,wbd.com
+DOMAIN-SUFFIX,wbdglobal.com
+
+# Max 使用的 Conviva 分析服务
+DOMAIN-SUFFIX,conviva.com
+
+# Max 账户管理系统
+DOMAIN-SUFFIX,hbomaxhelp.com
+DOMAIN-SUFFIX,youboranqs01.com
+
+# 内容验证和 DRM 服务
+DOMAIN-SUFFIX,bazaarvoice.com
+DOMAIN-SUFFIX,litix.io
