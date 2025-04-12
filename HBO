@@ -1,0 +1,33 @@
+# Loon Rule List for Max (HBO Max) Streaming Service
+# Updated: 2025-04-12 (Based on community resources)
+# Format: Domain Suffix
+
+# Core Max/HBO Domains
+DOMAIN-SUFFIX, hbo.com
+DOMAIN-SUFFIX, hbomax.com
+DOMAIN-SUFFIX, hbonow.com # Legacy, might still be used
+DOMAIN-SUFFIX, max.com
+
+# Authentication & API
+DOMAIN-SUFFIX, hbomaxcdn.com # CDN for Max content
+DOMAIN-SUFFIX, hbofulfillment.com
+DOMAIN-SUFFIX, hbogo.com # Legacy, but potentially related  
+DOMAIN-SUFFIX, hbolatam.com # Latin America region
+DOMAIN-SUFFIX, hbogeo.com # Geolocation services
+DOMAIN-SUFFIX, cinemax.com # Related content/service
+DOMAIN-SUFFIX, playmax.tv # Might be related in some regions
+
+# Supporting Services & CDNs (Potentially needed for functionality)  
+DOMAIN-SUFFIX, execute-api.us-east-1.amazonaws.com # APIs hosted on AWS (might need refinement if too broad)
+DOMAIN-SUFFIX, edge.bamgrid.com # Disney's backend, sometimes shared/related
+DOMAIN-SUFFIX, conviva.com # Analytics/QoS, often required
+DOMAIN-SUFFIX, nflxvideo.net # Sometimes used by other services for CDN, monitor usage
+DOMAIN-SUFFIX, uplynk.com # Video streaming platform used by some services
+
+# Analytics/Tracking (May be required for login or playback)
+DOMAIN-SUFFIX, optimizely.com
+DOMAIN-SUFFIX, demdex.net
+DOMAIN-SUFFIX, omtrdc.net
+DOMAIN-SUFFIX, adobedtm.com
+
+# --- End of Max Rule List ---
